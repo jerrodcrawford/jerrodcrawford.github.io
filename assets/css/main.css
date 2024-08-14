@@ -8,7 +8,11 @@
 */
 
 /* Reset */
-
+/* My Classes*/
+.shadow{
+	box-shadow: 5px 5px 5px rgb(36, 36, 36);
+	border-radius: 55%;
+}
 /* Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain) */
 
 	html, body, div, span, applet, object,
