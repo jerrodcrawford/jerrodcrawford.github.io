@@ -3,6 +3,15 @@
 
 /* Reset */
 /* My Classes*/
+.buttonJ{
+	transition: 0.4s;
+	border: none;
+}
+.buttonJ:hover{
+	background-color: #202020;
+	color: transparent;
+	
+}
 .shadow{
 	box-shadow: 5px 5px 5px rgb(36, 36, 36);
 	border-radius: 55%;
@@ -2251,7 +2260,7 @@
 		border-radius: 6px;
 		box-shadow: 0 2px 0 0 #e5e5e5;
 		margin: 0 0 2em 0;
-		padding: 3em;
+		padding: 2em 3em 3em 3em;
 	}
 
 		.box > :last-child {
