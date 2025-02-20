@@ -1,11 +1,16 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Graphic Design</title>
+		<title>Web Development</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
+        <!--External javascript code-->
+        <script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+        </script>
+        <script type="text/javascript" src="http://www.dukelearntoprogram.com/course1/common/js/cs101/SimpleImage.js"></script>
+        <!--End of External javasript code-->
+    </head>
 	<body class="is-preload">
 		<div id="page-wrapper">
 
@@ -30,19 +35,39 @@
 
 			<!-- Main -->
 				<section id="main" class="container">
-					
 					<div class="box">
 						<header class="major">
-						<span class="image featured"><img src="images/graphicDesignHeader.jpg" alt="" /></span>
-						<h3 align="center">With over 10 + years of experience, I've had the opportunity to work on many projects. Here's a few of my favorites.</h3>
-                        <br />
-                        <p><img src="images/17201 Apple Tree Dr.jpeg" width="30%" />&nbsp;&nbsp;&nbsp;<img src="images/flyerJ.jpg" width="30%"/>&nbsp;&nbsp;&nbsp;<img src="images/daycare.jpg" width="30%" /> 
-						<br>
-						<img src="images/oilChange.jpg" width="30%" />&nbsp;&nbsp;&nbsp;<img src="images/rumbleOnTheMound2014.jpg" width="30%" />&nbsp;&nbsp;&nbsp;<img src="images/JustSold1009-GardenGroveFRONT.jpg" width="30%"/>
-						<br>
-						<img src="images/hand2hand.jpg" width="30%" />&nbsp;&nbsp;&nbsp;<img src="images/hustlerReserveLogoBG.jpg" width="30%" />&nbsp;&nbsp;&nbsp;<img src="images/Ryu.jpg" width="30%"/>
-					</p>
-					</header>
+						<span class="image featured"><img src="images/webDevHeader.jpg" alt="" /></span>
+						<div class="row">
+                            <h1>JavaScript</h1>
+							<div class="row-6 row-12-mobilep" align="center">
+                            
+							<p>
+                                <h2>Photo Filter</h2>
+                                <canvas id="can">
+                                </canvas>
+                                <p>
+                                <h3>Load Image</h3>  
+                                <input type ="file" value="Choose File" multiple="false" accept="image/*" id="finput" onchange="upload()"
+                                />
+                                
+                                </p>
+                                <p>
+                                <input type="button" value=" Grayscale" onclick="makeGray()"/>
+                                <input type="button" value=" Red" onclick="makeRed()"/>
+                                <input type="button" value=" Blur" onclick="getPixelNearby()"/>
+                                <br/>
+                                <br/>
+                                <input type="button" value=" Reset Image" onclick="upload()"/>  
+                                </p>
+							<br>
+							</p>
+									
+						</header>	
+						</div>
+						</div>
+							
+						
 					</div>
 				</section>
 
@@ -57,7 +82,7 @@
 					<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
 				</ul>
 				<ul class="copyright">
-					<li>Designed By: <a href="https://www.linkedin.com/in/jerrod-crawford-b5413a309/?trk=public-profile-join-page">Jerrod Crawford Sr.</a></li>
+					<li>Designed By: <a href="https://www.linkedin.com/in/jerrod-crawford-b5413a309/">Jerrod Crawford Sr.</a></li>
 				</ul>
 			</footer>
 
