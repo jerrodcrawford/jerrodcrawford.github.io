@@ -28,7 +28,7 @@
             height: 200px;
             }
             body{
-            margin: 30px;
+            margin: auto;
             }
             input{
             font-size: 14pt;
@@ -62,30 +62,30 @@
 					<div class="box">
 						<header class="major">
 						<span class="image featured"><img src="images/webDevHeader.jpg" alt="" /></span>
+						<h2>JavaScript</h2>
 						<div class="row">
-                            <h1>JavaScript</h1>
-							<div class="row-6 row-12-mobilep" align="center">
-                            
-							<p>
-                                <h2>Photo Filter</h2>
-                                <canvas id="can">
-                                </canvas>
-                                <p>
-                                <h3>Load Image</h3>  
-                                <input type ="file" value="Choose File" multiple="false" accept="image/*" id="finput" onchange="upload()"
+						<div class="row-6 row-12-mobilep" align="center">
+						<section width="100%">
+						<h3>Load Image</h3>
+                        <br>
+						<canvas id="can"></canvas>
+						<h1>Photo Filter</h1>
+						<br><br>
+                        <input type ="file" height="50px" value="Choose File" multiple="false" accept="image/*" id="finput" onchange="upload()"
                                 />
-                                
-                                </p>
-                                <p>
-                                <input type="button" value=" Grayscale" onclick="makeGray()"/>
-                                <input type="button" value=" Red" onclick="makeRed()"/>
-                                <input type="button" value=" Blur" onclick="getPixelNearby()"/>
-                                <br/>
-                                <br/>
-                                <input type="button" value=" Reset Image" onclick="upload()"/>  
-                                </p>
-							<br>
-							</p>
+						<br><br>
+                        <input type="button" value=" Grayscale" onclick="makeGray()"/>
+                        <input type="button" value=" Red" onclick="makeRed()"/>
+                    	<input type="button" value=" Blur" onclick="getPixelNearby()"/>
+                    	<br/>
+                        <br/>
+                        <input type="button" value=" Reset Image" onclick="upload()"/>  
+                        </section>
+						<br/>
+						<section>
+
+
+						</section>	
 									
 						</header>	
 						</div>
