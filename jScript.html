@@ -91,12 +91,14 @@
 						<h3 id="myHeader">TO DO List</h3>
 						<input type="text" id="input" placeholder="Enter Task..."/>
 						<br><br>
-						<input type="button" id="addButton" onclick="addTask()" value="Add" /><br>
+						<input type="button" id="addButton" onclick="addTask()" value="Add" style="font-size:1.2em; margin: -6px 4px 0px 0px;"/>
+						<br>
 						<hr>
 						<ul id="task" style="padding-left: 0";>
-  							<li class="toDo">
-    						<input type="button" class="done" onlick="markDone(this.parentNode)" value="&#x2713;" />
-    						<input type="button" class="remove" onclick="remove(this.parentNode)" value="&#x2715;"/>
+  							<li style="list-style-type: none;background-color: #eee; border: 1px solid #c3c3c3;
+							  padding: 10px 0px 10px 5px; font-size: 20px;">
+    						<input type="button" class="done" onlick="markDone(this.parentNode)" value="&#x2713;" style="background-color: green;" />
+    						<input type="button" class="remove" onclick="remove(this.parentNode)" value="&#x2715;" style="background-color: red;"/>
    							 Make To-Do List
   							</li>
 						</ul>
