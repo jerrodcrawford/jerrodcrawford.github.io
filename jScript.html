@@ -10,7 +10,7 @@
 		<script src ="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
         <script src ="assets/js/SimpleImage.js"></script>
 		<script src ="assets/js/cs101.js"></script>
-		<script src ="assets/js/toDoList.js"></script>
+		<script src ="https://jerrodcrawford.github.io/assets/js/toDoList.js"></script>
         <!--End of External javasript code-->
         <!--Photo Filter-->
         <script src="https://jerrodcrawford.github.io/assets/js/photoFilter.js"></script>
@@ -94,9 +94,9 @@
 						<input type="button" id="addButton" onclick="addTask()" value="Add" /><br>
 						<hr>
 						<ul id="task" style="padding-left: 0";>
-  							<li style="list-style: none; background-color: #eee; border: 1px solid #c3c3c3; padding: 10px 0px 10px 5px; font-size: 20px;">
-    						<input type="button" class="done" onlick="markDone(this.parentNode)" value="&#x2713;" style="background-color: green;"/>
-    						<input type="button" class="remove" onclick="remove(this.parentNode)" value="&#x2715;" style="background-color: red"/>
+  							<li class="toDo">
+    						<input type="button" class="done" onlick="markDone(this.parentNode)" value="&#x2713;" />
+    						<input type="button" class="remove" onclick="remove(this.parentNode)" value="&#x2715;"/>
    							 Make To-Do List
   							</li>
 						</ul>
