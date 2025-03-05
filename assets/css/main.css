@@ -4,7 +4,7 @@
 /* Reset */
 /* My Classes*/
 /*To-Do-List*/
-.toDo{
+#toDo{
 	list-style-type: none;
   	background-color: #eee;
   	border: 1px solid #c3c3c3;
@@ -23,11 +23,11 @@ li.finished{
 	background-color: gray;
 	text-decoration: line-through;
 }
-input[type=button]{
+#input[type=button]{
 	font-size:1.2em;
 	margin: -6px 4px 0px 0px
   }
-  #addButton{
+#addButton{
 	padding: 10px;
   }
 /*End of To-Do-List*/
@@ -290,7 +290,7 @@ input[type=button]{
 /* Row */
 
 	.row {
-		display: flex;
+		display: block;
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
@@ -533,7 +533,7 @@ input[type=button]{
 		@media screen and (max-width: 1680px) {
 
 			.row {
-				display: flex;
+				display: block;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -778,7 +778,7 @@ input[type=button]{
 		@media screen and (max-width: 1280px) {
 
 			.row {
-				display: flex;
+				display: block;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -1023,7 +1023,7 @@ input[type=button]{
 		@media screen and (max-width: 980px) {
 
 			.row {
-				display: flex;
+				display: block;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -1268,7 +1268,7 @@ input[type=button]{
 		@media screen and (max-width: 840px) {
 
 			.row {
-				display: flex;
+				display: block;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -1513,7 +1513,7 @@ input[type=button]{
 		@media screen and (max-width: 736px) {
 
 			.row {
-				display: flex;
+				display: block;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -1758,7 +1758,7 @@ input[type=button]{
 		@media screen and (max-width: 480px) {
 
 			.row {
-				display: flex;
+				display: block;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
