@@ -290,7 +290,7 @@ li.finished{
 /* Row */
 
 	.row {
-		display: block;
+		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
@@ -533,7 +533,7 @@ li.finished{
 		@media screen and (max-width: 1680px) {
 
 			.row {
-				display: block;
+				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -778,7 +778,7 @@ li.finished{
 		@media screen and (max-width: 1280px) {
 
 			.row {
-				display: block;
+				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -1023,7 +1023,7 @@ li.finished{
 		@media screen and (max-width: 980px) {
 
 			.row {
-				display: block;
+				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -1268,7 +1268,7 @@ li.finished{
 		@media screen and (max-width: 840px) {
 
 			.row {
-				display: block;
+				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -1513,7 +1513,7 @@ li.finished{
 		@media screen and (max-width: 736px) {
 
 			.row {
-				display: block;
+				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -1758,7 +1758,7 @@ li.finished{
 		@media screen and (max-width: 480px) {
 
 			.row {
-				display: block;
+				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
