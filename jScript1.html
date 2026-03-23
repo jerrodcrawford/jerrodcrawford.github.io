@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Web Development</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		
+        <!--External javascript code-->
+		<script src ="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+        <script src ="assets/js/SimpleImage.js"></script>
+		<script src ="assets/js/cs101.js"></script>
+		<script src ="https://jerrodcrawford.github.io/assets/js/toDoList.js"></script>
+		<script src = "https://jerrodcrawford.github.io/assets/js/toDoList1.js"></script>
+		<!--End of External javascript code-->
+        <!--Photo Filter-->
+        <script src="https://jerrodcrawford.github.io/assets/js/photoFilter.js"></script>
+        <!--End of Photo Filter--> 
+        <style>
+            h1{
+                font-family: Arial;
+            color: dimgrey;
+            }
+            h2{
+            font-family: Arial;
+            color: dimgrey;
+            }
+            canvas{
+            border: 1px solid #c3c3c3;
+            
+            height: 200px;
+            }
+            body{
+            margin: auto;
+            }
+            input{
+            font-size: 14pt;
+            }
+        </style>   
+    </head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html" class="buttonJ">Home</a></li>
+							<li>
+								<a href="#" class="buttonJ icon solid fa-angle-down">Web Development</a>
+							<ul>
+								<li><a href="wDesign.html">Design</a></li>
+								<li><a href="html.html">HTML/CSS</a></li>
+								<li><a href="jScript.html">JavaScript</a></li>
+							</ul>
+							<li><a href="graphic.html" class="buttonJ">Graphic Design</a></li>
+							<li><a href="resume1.pdf" class="buttonJ">Resume</a></li>
+							</li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<section id="main" class="container" align="center">
+					<div class="box">
+						<header class="major">
+						<span class="image featured"><img src="images/webDevHeader.jpg" alt="" /></span>
+						<h2>JavaScript</h2>
+						<hr>
+						<div class="row">
+						<div class="row-6 row-12-mobilep" align="center">
+						<!--<div class="javascript" width="100%">-->
+						<h3>Photo Filter</h3>
+                        <br>
+						<canvas id="can" align="center"></canvas>
+						<h1>Load Image</h1>
+						<br><br>
+                        <input type ="file" height="50px" value="Choose File" multiple="false" accept="image/*" id="finput" onchange="upload()"
+                                />
+						<br><br>
+                        <input type="button" value="Grayscale" onclick="makeGray()"/>
+                        <input type="button" value="Red" onclick="makeRed()"/>
+                    	<!--<input type="button" value="Blur" onclick="getPixelNearby()"/>-->
+                    	<br/>
+                        <br/>
+                        <input type="button" value="Reset Image" onclick="upload()"/>  
+                        <!--</div>-->
+						<br/>
+						<hr>
+						<section>
+						<div class="todo-container">
+        				<h1>To-Do List</h1>
+				        <!-- Input field to add new tasks -->
+    					<input type="text" id="taskInput" placeholder="Add a new task">
+						<!-- Button to add a new task to the list -->
+ 				        <button class="add-btn" onclick="addTask()">Add Task</button>
+				        <!-- Unordered list to display the task -->
+    				    <ul class="todo-list" id="todoList"></ul>
+    					</div>
+						</section>
+						</header>	
+						</div>
+						</div>
+							
+						
+					</div>
+				</section>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+					<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+					<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>Designed By: <a href="https://www.linkedin.com/in/jerrod-crawford-b5413a309/" target="_blank">Jerrod Crawford Sr.</a></li>
+				</ul>
+			</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
